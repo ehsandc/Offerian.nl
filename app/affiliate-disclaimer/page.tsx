@@ -4,7 +4,7 @@ import Card from '@/components/Card'
 
 export const metadata: Metadata = {
   title: 'Affiliate Disclaimer - Offerian.nl',
-  description: 'Transparante uitleg over hoe Offerian.nl geld verdient via affiliate marketing en hoe dit ons vergelijkingsplatform niet beïnvloedt.',
+  description: 'Transparante uitleg over hoe Offerian.nl geld verdient via affiliate marketing en hoe dit ons doorverwijsplatform niet beïnvloedt.',
 }
 
 export default function AffiliateDisclaimer() {
@@ -36,7 +36,7 @@ export default function AffiliateDisclaimer() {
               </p>
               <p>
                 Dit verdienmodel is gebruikelijk in de vergelijkingsindustrie en stelt ons in 
-                staat om een gratis vergelijkingsplatform aan te bieden.
+                staat om een gratis doorverwijsplatform aan te bieden.
               </p>
             </Card>
 
@@ -45,17 +45,10 @@ export default function AffiliateDisclaimer() {
                 Hoe verdient Offerian.nl geld?
               </h2>
               <p className="mb-4">
-                Wij werken samen met erkende affiliate netwerken zoals:
+                Wij werken samen met erkende affiliate netwerken die de samenwerking tussen ons en aanbieders faciliteren.
               </p>
-              <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
-                <li>Daisycon</li>
-                <li>TradeTracker</li>
-                <li>Awin</li>
-                <li>En directe partnerschappen met aanbieders</li>
-              </ul>
               <p className="mb-4">
-                Deze netwerken faciliteren de samenwerking tussen ons en aanbieders van 
-                zorgverzekeringen en energiecontracten. Wanneer je via onze website een product 
+                Wanneer je via onze website een product 
                 afsluit, ontvangen wij een commissie.
               </p>
               <p className="font-semibold">
@@ -66,40 +59,10 @@ export default function AffiliateDisclaimer() {
 
             <Card>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Beïnvloedt dit onze vergelijkingen?
-              </h2>
-              <p className="mb-4">
-                <strong>Nee, absoluut niet.</strong> Onze vergelijkingen zijn objectief en 
-                gebaseerd op:
-              </p>
-              <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
-                <li>Prijs van het product</li>
-                <li>Voorwaarden en dekking</li>
-                <li>Populariteit bij consumenten</li>
-                <li>Klanttevredenheid</li>
-              </ul>
-              <p className="mb-4">
-                We ontvangen voor sommige aanbieders mogelijk een hogere commissie dan voor 
-                andere. Dit heeft echter geen invloed op de volgorde waarin we aanbieders tonen 
-                of op onze aanbevelingen.
-              </p>
-              <p>
-                Ons doel is om jou te helpen de beste keuze te maken voor jouw situatie, niet 
-                om de aanbieder met de hoogste commissie te promoten.
-              </p>
-            </Card>
-
-            <Card>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Cashback delen
               </h2>
               <p className="mb-4">
-                We gaan nog een stap verder in transparantie: een deel van de commissie die wij 
-                ontvangen, geven we terug aan jou in de vorm van cashback.
-              </p>
-              <p>
-                Dit betekent dat je niet alleen profiteert van een lagere prijs bij een nieuwe 
-                aanbieder, maar ook nog eens extra geld terugkrijgt van ons. Zo bespaar je dubbel.
+                Sommige aanbieders bieden cashback of welkomstacties aan volgens hun voorwaarden.
               </p>
               <p className="mt-4">
                 Lees meer over hoe cashback werkt op onze{' '}
@@ -133,7 +96,6 @@ export default function AffiliateDisclaimer() {
                 van tracking cookies. Deze cookies zijn noodzakelijk om:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4 mb-4">
-                <li>Je cashback correct toe te wijzen</li>
                 <li>Commissies te kunnen ontvangen van aanbieders</li>
                 <li>Statistieken bij te houden</li>
               </ul>
@@ -153,14 +115,6 @@ export default function AffiliateDisclaimer() {
                 <p className="flex items-start">
                   <span className="text-secondary-600 mr-2">✓</span>
                   <span>We zijn altijd transparant over hoe we geld verdienen</span>
-                </p>
-                <p className="flex items-start">
-                  <span className="text-secondary-600 mr-2">✓</span>
-                  <span>We laten commissies nooit onze vergelijkingen beïnvloeden</span>
-                </p>
-                <p className="flex items-start">
-                  <span className="text-secondary-600 mr-2">✓</span>
-                  <span>We delen onze commissies gedeeltelijk met jou via cashback</span>
                 </p>
                 <p className="flex items-start">
                   <span className="text-secondary-600 mr-2">✓</span>

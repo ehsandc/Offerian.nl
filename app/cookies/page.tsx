@@ -84,7 +84,7 @@ export default function Cookies() {
                     advertenties te tonen. Ook worden ze gebruikt voor affiliate tracking.
                   </p>
                   <ul className="list-disc list-inside space-y-1 ml-4 text-sm">
-                    <li>Affiliate tracking cookies (voor cashback toewijzing)</li>
+                    <li>Affiliate tracking cookies voor affiliate toewijzing</li>
                     <li>Conversie tracking</li>
                   </ul>
                 </div>
@@ -100,13 +100,12 @@ export default function Cookies() {
                 website een product heeft afgesloten. Dit is noodzakelijk om:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Te bepalen of je recht hebt op cashback</li>
-                <li>De juiste commissie te ontvangen van onze partners</li>
-                <li>Je aankoop te kunnen verifiëren</li>
+                <li>Te bepalen of een overstap via onze website heeft plaatsgevonden</li>
+                <li>De juiste affiliate commissie te ontvangen</li>
+                <li>Statistieken te kunnen bijhouden</li>
               </ul>
               <p className="mt-4">
-                Deze cookies worden geplaatst door onze affiliate partners zoals Daisycon, 
-                TradeTracker en Awin.
+                Deze cookies worden geplaatst door erkende affiliate netwerken.
               </p>
             </Card>
 
@@ -121,7 +120,7 @@ export default function Cookies() {
                 <li><strong>Sessie cookies:</strong> Worden verwijderd zodra je de browser sluit</li>
                 <li><strong>Functionele cookies:</strong> Maximaal 1 jaar</li>
                 <li><strong>Analytische cookies:</strong> Maximaal 2 jaar</li>
-                <li><strong>Affiliate tracking cookies:</strong> 30-90 dagen (afhankelijk van de partner)</li>
+                <li><strong>Affiliate tracking cookies:</strong> variabele bewaartermijn</li>
               </ul>
             </Card>
 
@@ -182,13 +181,7 @@ export default function Cookies() {
               </p>
             </Card>
 
-            <Card className="bg-yellow-50 border border-yellow-200">
-              <p className="text-sm text-gray-700">
-                💡 <strong>Let op:</strong> Dit is een basis cookie policy template. Implementeer 
-                een cookie banner en pas deze tekst aan op basis van de specifieke cookies die je 
-                gebruikt. Laat dit controleren door een juridisch adviseur.
-              </p>
-            </Card>
+
           </div>
         </div>
       </Container>

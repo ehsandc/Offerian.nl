@@ -54,7 +54,7 @@ export default function Privacy() {
                 <li>Het verbeteren van onze website en dienstverlening</li>
                 <li>Het verzenden van informatie die je hebt aangevraagd</li>
                 <li>Het bijhouden van bezoekersstatistieken</li>
-                <li>Het uitbetalen van cashback en het afhandelen van vragen</li>
+                <li>Het afhandelen van algemene vragen</li>
                 <li>Het voldoen aan wettelijke verplichtingen</li>
               </ul>
             </Card>
@@ -67,7 +67,7 @@ export default function Privacy() {
                 Wij delen je gegevens alleen met derden in de volgende gevallen:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Met affiliate partners wanneer je via onze links een product afsluit</li>
+                <li>Met erkende affiliate netwerken voor doorverwijzing en attributie</li>
                 <li>Met analytische tools zoals Google Analytics (geanonimiseerd)</li>
                 <li>Wanneer dit wettelijk verplicht is</li>
               </ul>
@@ -144,13 +144,7 @@ export default function Privacy() {
               </div>
             </Card>
 
-            <Card className="bg-yellow-50 border border-yellow-200">
-              <p className="text-sm text-gray-700">
-                💡 <strong>Let op:</strong> Dit is een basis privacy policy template. Laat deze 
-                tekst controleren door een juridisch adviseur en pas deze aan op basis van jouw 
-                specifieke situatie en de tools die je gebruikt.
-              </p>
-            </Card>
+
           </div>
         </div>
       </Container>

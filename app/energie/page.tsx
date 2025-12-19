@@ -88,14 +88,13 @@ export default function Energie() {
           <div className="max-w-4xl mx-auto text-center px-4">
             <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 shadow-2xl overflow-hidden max-w-full">
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-gray-900 mb-4 leading-tight break-words max-w-full px-2">
-                💸 Gemiddelde besparing bij overstappen
+                ⚡ Energieleveranciers
               </h1>
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-secondary-600 mb-6 break-words max-w-full">
-                €200 – €400 per jaar*
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-secondary-600 mb-6 break-words max-w-full">
+                Mogelijke besparing bij overstap
               </div>
               <p className="text-xs sm:text-sm text-gray-500 mb-8 break-words max-w-full px-2">
-                *Gebaseerd op overstap van oude contracten naar actuele tarieven.
-                Exacte besparing verschilt per situatie.
+                Indicatief. Exacte besparing verschilt per situatie.
               </p>
               <div className="border-t border-gray-200 pt-6 max-w-full">
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed break-words max-w-full px-2">
@@ -169,29 +168,26 @@ export default function Energie() {
                         )}
                       </div>
                       <div className="text-xs sm:text-sm font-medium text-secondary-700 mb-4 px-3 break-words">
-                        Best for: {provider.usp}
+                        {provider.usp}
                       </div>
                     </div>
                     
-                    {/* Price Anchor */}
+                    {/* Contract Type */}
                     <div className="bg-gradient-to-br from-secondary-50 to-white border-2 border-secondary-200 rounded-xl p-3 sm:p-4 mb-4">
-                      <div className="text-2xl sm:text-3xl font-black text-secondary-700 text-center break-words">
-                        ± €135 – €155 p/m
-                      </div>
-                      <div className="text-xs text-gray-600 text-center mt-1 px-2 break-words">
-                        bij gemiddeld verbruik
-                      </div>
-                      <div className="text-center mt-3">
+                      <div className="text-center">
                         <Badge variant="info" className="text-xs whitespace-nowrap">
                           {provider.contractType === 'vast' ? '🔒 Vast' : '📊 Variabel'}
                         </Badge>
+                        <p className="text-xs text-gray-600 mt-2 px-2 break-words">
+                          Actuele tarieven bij aanbieder
+                        </p>
                       </div>
                     </div>
 
                     {/* Benefit Hint */}
                     <div className="text-center mb-4 px-2">
                       <p className="text-xs sm:text-sm font-semibold text-secondary-600 break-words">
-                        💰 Mogelijke welkomstactie
+                        💰 Mogelijke actie volgens voorwaarden van de aanbieder
                       </p>
                     </div>
                     
@@ -203,7 +199,7 @@ export default function Energie() {
                         rel="noopener noreferrer"
                       >
                         <Button variant="secondary" fullWidth size="lg" className="font-bold text-sm sm:text-base md:text-lg py-3 sm:py-4 break-words">
-                          Bekijk actuele tarieven →
+                          Ga naar aanbieder →
                         </Button>
                       </a>
                       <div className="text-center mt-3">
@@ -226,34 +222,11 @@ export default function Energie() {
 
             {/* Transparency & Info Section */}
             <div className="mt-12 space-y-6">
-              {/* Affiliate Transparency */}
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-sm text-gray-700">
-                <p className="flex items-start">
-                  <span className="mr-2">ℹ️</span>
-                  <span>
-                    <strong>Transparantie:</strong> Offerian.nl kan een vergoeding ontvangen wanneer je via ons overstapt. Dit heeft geen invloed op de prijs die je betaalt.
-                  </span>
-                </p>
-              </div>
-
-              {/* Indicative Prices Info */}
+              {/* Clarification */}
               <Card className="bg-gradient-to-br from-blue-50 to-white border-2 border-blue-200">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">
-                  💡 Wat betaal je ongeveer?
-                </h2>
-                <div className="space-y-3 text-gray-700">
-                  <p className="font-medium">De meeste huishoudens betalen momenteel:</p>
-                  <ul className="space-y-2 ml-4">
-                    <li>• €110 – €160 per maand (1-persoonshuishouden)</li>
-                    <li>• €140 – €200 per maand (gezin)</li>
-                  </ul>
-                  <p className="mt-4">
-                    Via onderstaande links word je doorverwezen naar de website van de energieleverancier, waar je actuele tarieven en voorwaarden vindt.
-                  </p>
-                  <p className="text-sm text-gray-600 mt-4 italic">
-                    Voorbeeldprijzen zijn indicatief. Exacte tarieven zie je bij de aanbieder.
-                  </p>
-                </div>
+                <p className="text-sm text-gray-700">
+                  Via onderstaande links word je doorverwezen naar de website van de energieleverancier, waar je actuele tarieven en voorwaarden vindt.
+                </p>
               </Card>
             </div>
 

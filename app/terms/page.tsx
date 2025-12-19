@@ -46,7 +46,7 @@ export default function Terms() {
                 2. Gebruik van de website
               </h2>
               <p className="mb-4">
-                <strong>2.1</strong> Offerian.nl is een vergelijkingsplatform dat informatie 
+                <strong>2.1</strong> Offerian.nl is een doorverwijsplatform dat informatie 
                 verstrekt over zorgverzekeringen en energiecontracten.
               </p>
               <p className="mb-4">
@@ -95,33 +95,6 @@ export default function Terms() {
                 <a href="/affiliate-disclaimer" className="text-primary-600 hover:underline">
                   affiliate disclaimer
                 </a>.
-              </p>
-            </Card>
-
-            <Card>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                5. Cashback
-              </h2>
-              <p className="mb-4">
-                <strong>5.1</strong> Wij kunnen cashback aanbieden bij bepaalde aanbieders. 
-                De voorwaarden voor cashback worden duidelijk vermeld op de website.
-              </p>
-              <p className="mb-4">
-                <strong>5.2</strong> Cashback wordt alleen uitgekeerd als:
-              </p>
-              <ul className="list-disc list-inside space-y-1 ml-4 mb-4">
-                <li>Je het product hebt afgesloten via een van onze trackinglinks</li>
-                <li>De aankoop is bevestigd door de aanbieder</li>
-                <li>Het contract niet binnen de herroepingstermijn is geannuleerd</li>
-                <li>We de commissie hebben ontvangen van de aanbieder</li>
-              </ul>
-              <p className="mb-4">
-                <strong>5.3</strong> Cashback wordt uitgekeerd binnen 8-12 weken na bevestiging 
-                van de aankoop, tenzij anders vermeld.
-              </p>
-              <p>
-                <strong>5.4</strong> Wij behouden ons het recht voor om cashback te weigeren bij 
-                misbruik of fraude.
               </p>
             </Card>
 
@@ -206,19 +179,12 @@ export default function Terms() {
               </p>
               <div className="space-y-1">
                 <p><strong>Bedrijfsnaam:</strong> Offerian.nl</p>
-                <p><strong>KvK nummer:</strong> [KvK nummer hier invoeren]</p>
                 <p><strong>E-mail:</strong> info@offerian.nl</p>
                 <p><strong>Website:</strong> <a href="/over-ons" className="text-primary-600 hover:underline">Contact pagina</a></p>
               </div>
             </Card>
 
-            <Card className="bg-yellow-50 border border-yellow-200">
-              <p className="text-sm text-gray-700">
-                💡 <strong>Let op:</strong> Dit is een basis template voor algemene voorwaarden. 
-                Laat deze tekst altijd controleren en aanpassen door een juridisch adviseur voordat 
-                je de website live zet. Algemene voorwaarden moeten specifiek zijn voor jouw situatie.
-              </p>
-            </Card>
+
           </div>
         </div>
       </Container>

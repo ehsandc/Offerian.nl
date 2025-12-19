@@ -93,12 +93,11 @@ export default function Zorgverzekering() {
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-900 mb-4 break-words max-w-full">
                 🏥 Zorgverzekering 2026
               </h1>
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-yellow-600 mb-6 break-words max-w-full">
-                €100 – €300 besparing*
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-yellow-600 mb-6 break-words max-w-full">
+                Mogelijke besparing bij overstap
               </div>
               <p className="text-xs sm:text-sm text-gray-500 mb-8 break-words max-w-full px-2">
-                *Mogelijk te besparen per jaar door over te stappen.
-                Exacte voordeel verschilt per situatie en gekozen pakket.
+                Indicatief. Exacte voordeel verschilt per situatie en gekozen pakket.
               </p>
               <div className="border-t border-gray-200 pt-6 max-w-full">
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed break-words max-w-full px-2">
@@ -191,7 +190,7 @@ export default function Zorgverzekering() {
                     {/* Benefit Hint */}
                     <div className="text-center mb-4 px-2">
                       <p className="text-xs sm:text-sm font-semibold text-yellow-600 break-words">
-                        🎁 Mogelijke welkomstactie
+                        🎁 Mogelijke actie volgens voorwaarden van de aanbieder
                       </p>
                     </div>
                     

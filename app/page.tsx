@@ -28,10 +28,10 @@ export default function Home() {
               {/* Benefit Highlight */}
               <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 border-4 border-yellow-400 rounded-xl p-4 sm:p-6 md:p-8 text-center max-w-full overflow-hidden">
                 <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-yellow-600 mb-2 break-words max-w-full">
-                  💰 Tot €600 per jaar
+                  💰 Mogelijke besparing bij overstap
                 </div>
                 <p className="text-sm sm:text-base md:text-lg text-gray-700 font-medium break-words max-w-full px-2">
-                  Gemiddelde besparing door overstap naar energie + zorg
+                  Door overstap naar energie + zorg
                 </p>
                 <p className="text-xs sm:text-sm text-gray-600 mt-2 break-words max-w-full px-2">
                   Indicatief. Exacte voordeel verschilt per situatie.
@@ -136,10 +136,10 @@ export default function Home() {
                 </div>
                 
                 <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 border-2 border-yellow-300 rounded-xl p-3 sm:p-4 mb-6 text-center overflow-hidden">
-                  <div className="text-2xl sm:text-3xl font-black text-yellow-700 break-words">
-                    €100 – €300
+                  <div className="text-xl sm:text-2xl font-black text-yellow-700 break-words">
+                    Mogelijke besparing
                   </div>
-                  <div className="text-xs sm:text-sm text-gray-700 break-words">mogelijk te besparen per jaar</div>
+                  <div className="text-xs sm:text-sm text-gray-700 break-words">(indicatief)</div>
                 </div>
 
                 <div className="space-y-3 mb-6">
@@ -165,10 +165,10 @@ export default function Home() {
                 </div>
                 
                 <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 border-2 border-yellow-300 rounded-xl p-3 sm:p-4 mb-6 text-center overflow-hidden">
-                  <div className="text-2xl sm:text-3xl font-black text-yellow-700 break-words">
-                    €200 – €400
+                  <div className="text-xl sm:text-2xl font-black text-yellow-700 break-words">
+                    Mogelijke besparing
                   </div>
-                  <div className="text-xs sm:text-sm text-gray-700 break-words">mogelijk te besparen per jaar</div>
+                  <div className="text-xs sm:text-sm text-gray-700 break-words">(indicatief)</div>
                 </div>
 
                 <div className="space-y-3 mb-6">
@@ -238,7 +238,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Profiteer</h3>
               <p className="text-gray-600">
-                Bespaar op je maandelijkse kosten en ontvang eventuele welkomstacties.
+                Verlaag mogelijk je maandelijkse kosten en mogelijke welkomstacties volgens voorwaarden van de aanbieder.
               </p>
             </div>
           </div>

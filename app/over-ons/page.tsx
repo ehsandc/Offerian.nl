@@ -39,7 +39,7 @@ export default function OverOns() {
               Over Offerian.nl
             </h1>
             <p className="text-xl text-gray-600">
-              Eerlijk vergelijken en besparen. Dat is waar wij voor staan.
+              Eerlijk doorverwijzen en besparen. Dat is waar wij voor staan.
             </p>
           </div>
         </Container>
@@ -62,9 +62,8 @@ export default function OverOns() {
                   vergelijken van alle opties kan overweldigend zijn.
                 </p>
                 <p>
-                  Daarom hebben we Offerian.nl opgericht: om het vergelijken makkelijk, 
-                  transparant en voordelig te maken. Wij presenteren een selectie van beschikbare 
-                  en relevante aanbieders op één plek, zodat jij een geïnformeerde keuze kunt maken.
+                  Daarom hebben we Offerian.nl opgericht: om het ontdekken van aanbieders makkelijk en transparant te maken. Wij presenteren een selectie van beschikbare 
+                  en relevante aanbieders op één plek, zodat je aanbieders kunt bekijken en zelf een keuze kunt maken.
                 </p>
               </div>
             </Card>
@@ -92,8 +91,7 @@ export default function OverOns() {
                     Cashback delen
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    Een deel van de commissie die wij verdienen, geven we terug aan jou als 
-                    cashback. Zo bespaar je nóg meer.
+                    Sommige aanbieders bieden cashback of welkomstacties aan volgens hun voorwaarden.
                   </p>
                 </div>
 
@@ -135,8 +133,7 @@ export default function OverOns() {
                 </p>
                 <p>
                   <strong>Beïnvloedt dit onze vergelijkingen?</strong><br />
-                  Nee. We tonen een selectie van beschikbare aanbieders objectief, gerangschikt op basis van 
-                  relevantie, prijs en populariteit. Commissies beïnvloeden onze rankings niet.
+                  Nee. We tonen een selectie van beschikbare aanbieders op basis van beschikbaarheid bij onze samenwerkingspartners.
                 </p>
                 <p>
                   <strong>Samenwerking met affiliate netwerken</strong><br />
@@ -232,7 +229,7 @@ export default function OverOns() {
               </h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Offerian.nl is een onafhankelijk online vergelijkingsplatform in opstartfase. 
+                  Offerian.nl is een onafhankelijk online doorverwijsplatform in opstartfase. 
                   Formele bedrijfsgegevens, zoals een KvK- en btw-nummer, worden toegevoegd zodra de inschrijving is afgerond.
                 </p>
                 <div className="mt-4">
