@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     locale: 'nl_NL',
     type: 'website',
   },
+  other: {
+    'e4e1bcdb9f962d2': '8a08ebfd35e00ba67246c68bd34d042d',
+  },
 }
 
 export default function RootLayout({
