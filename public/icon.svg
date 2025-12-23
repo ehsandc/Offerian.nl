@@ -6,7 +6,7 @@
       <stop offset="100%" style="stop-color:#d4a500;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <circle cx="50" cy="50" r="48" fill="url(#goldGradient)"/>
-  <circle cx="50" cy="50" r="45" fill="none" stroke="#8b4513" stroke-width="1"/>
-  <text x="50" y="72" font-size="65" font-weight="bold" text-anchor="middle" fill="#1e5a2e" font-family="Arial, sans-serif">O</text>
+  <circle cx="50" cy="50" r="48" fill="#4a2c0f"/>
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#6b4423" stroke-width="1"/>
+  <text x="50" y="72" font-size="65" font-weight="bold" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif">O</text>
 </svg>
