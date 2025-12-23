@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   },
   other: {
     'e4e1bcdb9f962d2': '8a08ebfd35e00ba67246c68bd34d042d',
+    'tradetracker-site-verification': '43c2c965f7c968b724a80afe92285912f88d6a7e',
   },
 }
 
