@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: 'Offerian.nl - Bespaar op zorgverzekering & energie',
   description: 'Vergelijk betrouwbare aanbieders en stap vóór 31 december over. Ontvang cashback bij het afsluiten.',
   keywords: 'zorgverzekering vergelijken, energie vergelijken, overstappen, cashback, Nederland',
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/favicon.ico',
+    apple: '/icon.svg',
+  },
   openGraph: {
     title: 'Offerian.nl - Bespaar op zorgverzekering & energie',
     description: 'Vergelijk betrouwbare aanbieders en stap vóór 31 december over.',
