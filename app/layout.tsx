@@ -35,6 +35,27 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        
+        {/* TradeTracker SuperTag */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var _TradeTrackerTagOptions = {
+                t: 'a',
+                s: '503462',
+                chk: 'cb612ee94da57a9bdafa6e2914438e1a',
+                overrideOptions: {}
+              };
+              (function() {
+                var tt = document.createElement('script'), s = document.getElementsByTagName('script')[0];
+                tt.setAttribute('type', 'text/javascript');
+                tt.setAttribute('src', (document.location.protocol == 'https:' ? 'https' : 'http') + '://tm.tradetracker.net/tag?t=' + _TradeTrackerTagOptions.t + '&s=' + _TradeTrackerTagOptions.s + '&chk=' + _TradeTrackerTagOptions.chk);
+                s.parentNode.insertBefore(tt, s);
+              })();
+            `,
+          }}
+        />
       </body>
     </html>
   )
