@@ -182,3 +182,4 @@ Proprietary - All rights reserved
 **Built for**: Dutch affiliate comparison market
 **Target**: November-December switching season
 **Focus**: Health insurance & energy providers
+# Trigger Vercel rebuild
